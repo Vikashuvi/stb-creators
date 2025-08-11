@@ -50,7 +50,7 @@ export default function Lab() {
               }}
               className="text-[clamp(100px,14vw,500px)] font-bold uppercase leading-none typeface-respira-black text-center w-full whitespace-nowrap select-none will-change-transform"
             >
-              Lab
+              Reel Vault
             </motion.h1>
           </div>
         </div>

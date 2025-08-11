@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { lcddot } from "@/fonts";
 import Image from "next/image";
 import Copy from "@/components/layout/Copy";
+import { image } from "motion/react-client";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -22,46 +23,70 @@ const services = [
   {
     title: "Brand Strategy",
     description:
-      "Helping others uncover their brand's purpose and uniqueness – and the game plan to deliver it to win their customers' devotion.",
+      "Helping business owners discover their brand’s unique purpose and create a winning strategy to attract loyal customers.",
     keywords: [
       "Research & Insights",
       "Brand Strategy",
       "Competitive Study",
       "Voice & Tone",
-      "Naming & Copywriting",
+      "Brand Identity",
+      "Visual Identity",
       "Workshops",
     ],
     image: "/images/services/brand-strategy.png",
   },
   {
-    title: "Digital Design",
-    description:
-      "Designing engaging digital experiences that combine brand strategy and creativity with UX insights to deliver functionality and ease of use.",
-    keywords: [
-      "Identity Design",
-      "Wireframing",
-      "UI",
-      "UX",
-      "Web Design",
-      "Product Design",
-    ],
+  title: "Relatable Storytelling",
+  description: "Developing authentic, engaging narratives and capturing them through professional video shooting to create genuine connections with your audience.",
+  keywords: [
+    "Narrative Crafting",
+    "Engagement",
+    "Content Planning",
+    "Brand Voice",
+    "On-Location Filming"
+  ],
+  image: "/images/services/development.png"
+},
+
+
+  {
+  title: "Visual Storytelling",
+  description: "Crafting compelling video narratives through expert editing, motion design, and pacing to engage audiences and amplify your brand’s message.",
+  keywords: [
+    "Video Editing",
+    "Motion Graphics",
+    "Storyboarding",
+    "Color Grading",
+    "Sound Design",
+    "Content Strategy"
+  ],
+
+    image: "/images/services/development.png",
+  },
+  {
+  title: "Web Designing",
+  description: "Creating visually stunning and user-friendly websites that blend brand identity, responsive design, and seamless user experience to engage and convert visitors.",
+  keywords: [
+    "Responsive Design",
+    "Website Development",
+    "UI/UX",
+    "Landing pages",
+  ],
     image: "/images/services/digital-design.png",
   },
   {
-    title: "Development",
-    description:
-      "Building digital products that combine design, technology, and business strategy to deliver seamless user experiences.",
-    keywords: [
-      "Frontend Development",
-      "SEO",
-      "Motion",
-      "Animation",
-      "WebGL",
-      "CMS Development",
-      "Databases",
-    ],
-    image: "/images/services/development.png",
-  },
+  title: "Performance Ads",
+  description: "Designing targeted ad campaigns that capture attention, drive conversions, and maximize ROI through data-driven strategies and creative execution.",
+  keywords: [
+    "Targeted Campaigns",
+    "Conversion Optimization",
+    "Social Media Ads",
+    "Ad Creative",
+  
+  ],
+  image: "/images/services/performance-ads.png",
+},
+
 ];
 
 export default function Services() {
@@ -77,9 +102,7 @@ export default function Services() {
             </Copy>
             <Copy>
               <p className="text-neutral-100 text-[clamp(24px,3.3vw,56px)] font-medium leading-[1.1] lg:leading-[1.05]">
-                Evolving with every brief and built for impact, my process spans
-                design, development, and brand strategy—aligning vision with
-                execution to bring clarity and edge to every project.
+              We don’t just post content We build strategies. Our process starts with understanding your brand’s identity and audience, crafting tailored stories, and designing engaging visuals. We create content that connects, converts, and grows your community consistently.
               </p>
             </Copy>
           </div>

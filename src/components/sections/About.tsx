@@ -86,7 +86,7 @@ export default function About() {
     >
       <div className="flex flex-col col-span-12 lg:col-span-7">
         <Copy>
-          <h4 className="font-semibold uppercase mb-4">Myself</h4>
+          <h4 className="font-semibold uppercase mb-4">Founder</h4>
         </Copy>
 
         {/* Mobile video */}
@@ -111,10 +111,8 @@ export default function About() {
           ref={paragraphRef}
           className="hidden lg:block text-[clamp(28px,3.5vw,96px)] font-semibold tracking-tight leading-none"
         >
-          Passionate about merging design and engineering, I craft smooth,
-          interactive experiences with purpose. With a focus on motion,
-          performance, and detail, I help bring digital products to life for
-          forward-thinking brands around the world.
+Krish is a digital creator and entrepreneur who’s built a sellable audience of 100K+.
+Passionate about design and tech, he builds engaging content ecosystems for brands.
         </p>
 
         <Copy>
@@ -122,10 +120,8 @@ export default function About() {
             ref={paragraphRef}
             className="lg:hidden text-[clamp(28px,3.5vw,96px)] font-semibold tracking-tight leading-none"
           >
-            Passionate about merging design and engineering, I craft smooth,
-            interactive experiences with purpose. With a focus on motion,
-            performance, and detail, I help bring digital products to life for
-            forward-thinking brands around the world.
+Krish is a digital creator and entrepreneur who’s built a sellable audience of 100K+.
+Passionate about design and tech, he builds engaging content ecosystems for brands.
           </p>
         </Copy>
       </div>

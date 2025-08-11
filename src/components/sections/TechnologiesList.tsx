@@ -70,325 +70,78 @@ export default function TechnologiesLit() {
 
   return (
     <section className="pb-24 px-4 lg:px-8">
-      <LetterScroll />
+  <LetterScroll />
 
-      <h4 className="font-semibold uppercase mb-4">Professional at</h4>
-      <div ref={containerRef} className="relative">
-        <div className="hidden lg:grid grid-rows-2">
-          <div className="grid grid-cols-3 border-b border-neutral-300 h-[clamp(200px,20vw,400px)]">
-            <a
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit React website"
-            >
-              <Image
-                src="/images/svg/react-logo.svg"
-                alt="React"
-                width={90}
-                height={90}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://nextjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit Next.js website"
-            >
-              <Image
-                src="/images/svg/nextjs-logotype-light-background.svg"
-                alt="Next.js"
-                width={150}
-                height={150}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://www.typescriptlang.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center group cursor-pointer"
-              aria-label="Visit TypeScript website"
-            >
-              <Image
-                src="/images/svg/typescript-logo.svg"
-                alt="TypeScript"
-                width={70}
-                height={70}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-          </div>
-
-          <div className="grid grid-cols-7 h-[clamp(200px,15vw,400px)]">
-            <a
-              href="https://gsap.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit GSAP website"
-            >
-              <Image
-                src="/images/svg/gsap-black.svg"
-                alt="GSAP"
-                width={80}
-                height={80}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://motion.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit Motion website"
-            >
-              <Image
-                src="/images/svg/motion.svg"
-                alt="Motion"
-                width={80}
-                height={80}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://tailwindcss.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit TailwindCSS website"
-            >
-              <Image
-                src="/images/svg/tailwindcss-logo.svg"
-                alt="TailwindCSS"
-                width={70}
-                height={70}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://www.contentful.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit Contentful website"
-            >
-              <Image
-                src="/images/svg/contentful-logo.svg"
-                alt="Contentful"
-                width={50}
-                height={50}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://supabase.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer"
-              aria-label="Visit Supabase website"
-            >
-              <Image
-                src="/images/svg/supabase-logo.svg"
-                alt="Supabase"
-                width={50}
-                height={50}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://vercel.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center border-r border-neutral-300 group"
-              aria-label="Visit Vercel website"
-            >
-              <Image
-                src="/images/svg/vercel-logotype-light.svg"
-                alt="Vercel"
-                width={90}
-                height={90}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-            <a
-              href="https://www.figma.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="grid-item flex items-center justify-center group"
-              aria-label="Visit Figma website"
-            >
-              <Image
-                src="/images/svg/figma-logo.svg"
-                alt="Figma"
-                width={60}
-                height={60}
-                className="z-10 transition-all duration-300"
-              />
-            </a>
-          </div>
-        </div>
-
-        {/* Grid for mobile */}
-        <div className="grid grid-cols-2 lg:hidden">
-          <a
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit React website"
-          >
-            <Image
-              src="/images/svg/react-logo.svg"
-              alt="React"
-              width={70}
-              height={70}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://nextjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit Next.js website"
-          >
-            <Image
-              src="/images/svg/nextjs-logotype-light-background.svg"
-              alt="Next.js"
-              width={100}
-              height={100}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://www.typescriptlang.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit TypeScript website"
-          >
-            <Image
-              src="/images/svg/typescript-logo.svg"
-              alt="TypeScript"
-              width={64}
-              height={64}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://gsap.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit GSAP website"
-          >
-            <Image
-              src="/images/svg/gsap-black.svg"
-              alt="GSAP"
-              width={80}
-              height={80}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://motion.dev/"
-            target="_blank"
-            className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-          >
-            <Image
-              src="/images/svg/motion.svg"
-              alt="Motion"
-              width={80}
-              height={80}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit TailwindCSS website"
-          >
-            <Image
-              src="/images/svg/tailwindcss-logo.svg"
-              alt="TailwindCSS"
-              width={70}
-              height={70}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://www.contentful.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit TailwindCSS website"
-          >
-            <Image
-              src="/images/svg/contentful-logo.svg"
-              alt="Contentful"
-              width={50}
-              height={50}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://supabase.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit Supabase website"
-          >
-            <Image
-              src="/images/svg/supabase-logo.svg"
-              alt="Supabase"
-              width={50}
-              height={50}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://vercel.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center justify-center border-r border-neutral-300 group h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit Vercel website"
-          >
-            <Image
-              src="/images/svg/vercel-logotype-light.svg"
-              alt="Vercel"
-              width={90}
-              height={90}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-          <a
-            href="https://www.figma.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="grid-item flex items-center  border-neutral-300 justify-center group h-[clamp(200px,20vw,400px)]"
-            aria-label="Visit Figma website"
-          >
-            <Image
-              src="/images/svg/figma-logo.svg"
-              alt="Figma"
-              width={60}
-              height={60}
-              className="z-10 transition-all duration-300"
-            />
-          </a>
-        </div>
-        <div
-          ref={highlightRef}
-          className="highlight hidden sm:block absolute top-0 left-0 bg-neutral-900 pointer-events-none transition-all duration-300"
-        ></div>
+  <h4 className="font-semibold uppercase mb-4">Professional at</h4>
+  <div ref={containerRef} className="relative">
+    <div className="hidden lg:grid grid-rows-2">
+      <div className="grid grid-cols-3 border-b border-neutral-300 h-[clamp(200px,20vw,400px)]">
+        <a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit Premiere Pro website">
+          <Image src="/images/svg/premiere-pro.png" alt="Premiere Pro" width={90} height={90} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://www.adobe.com/products/aftereffects.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit After Effects website">
+          <Image src="/images/svg/after-effects.png" alt="After Effects" width={90} height={90} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center group cursor-pointer" aria-label="Visit DaVinci Resolve website">
+          <Image src="/images/svg/davinci-resolve.png" alt="DaVinci Resolve" width={70} height={70} className="z-10 transition-all duration-300" />
+        </a>
       </div>
-    </section>
+
+      <div className="grid grid-cols-7 h-[clamp(200px,15vw,400px)]">
+        <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit Illustrator website">
+          <Image src="/images/svg/illustrator.png" alt="Illustrator" width={70} height={70} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit Perplexity website">
+          <Image src="/images/svg/perplexity.png" alt="Perplexity" width={60} height={60} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit ChatGPT website">
+          <Image src="/images/svg/chatgpt.png" alt="ChatGPT" width={60} height={60} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://framer.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit Framer website">
+          <Image src="/images/svg/framer.png" alt="Framer" width={60} height={60} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://www.elevenlabs.io/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit Eleven Labs website">
+          <Image src="/images/svg/elevenlabs.png" alt="Eleven Labs" width={60} height={60} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://manychat.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-neutral-300 group cursor-pointer" aria-label="Visit Google Veo website">
+          <Image src="/images/svg/manychat.png" alt="Many Chat" width={70} height={70} className="z-10 transition-all duration-300" />
+        </a>
+        <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center group" aria-label="Visit Next.js website">
+          <Image src="/images/svg/nextjs-logotype-light-background.svg" alt="Next.js" width={100} height={100} className="z-10 transition-all duration-300" />
+        </a>
+      </div>
+    </div>
+
+    {/* Grid for mobile */}
+    <div className="grid grid-cols-2 lg:hidden">
+      <a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Premiere Pro website">
+        <Image src="/images/svg/premiere-pro.svg" alt="Premiere Pro" width={70} height={70} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://www.adobe.com/products/aftereffects.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit After Effects website">
+        <Image src="/images/svg/after-effects.svg" alt="After Effects" width={70} height={70} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit DaVinci Resolve website">
+        <Image src="/images/svg/davinci-resolve.svg" alt="DaVinci Resolve" width={70} height={70} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Illustrator website">
+        <Image src="/images/svg/illustrator.svg" alt="Illustrator" width={70} height={70} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Perplexity website">
+        <Image src="/images/svg/perplexity.svg" alt="Perplexity" width={60} height={60} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit ChatGPT website">
+        <Image src="/images/svg/chatgpt.svg" alt="ChatGPT" width={60} height={60} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://framer.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Framer website">
+        <Image src="/images/svg/framer.svg" alt="Framer" width={60} height={60} className="z-10 transition-all duration-300" />
+      </a>
+      <a href="https://www.elevenlabs.io/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Eleven Labs website">
+        <Image src="/images/svg/elevenlabs.svg" alt="Eleven Labs" width={60} height={60} className="z-10 transition-all duration-300" />
+      </a>
+    </div>
+    <div ref={highlightRef} className="highlight hidden sm:block absolute top-0 left-0 bg-neutral-900 pointer-events-none transition-all duration-300"></div>
+  </div>
+</section>
   );
 }
 
@@ -420,70 +173,54 @@ function LetterScroll() {
       className="letter-scroll flex flex-col justify-center items-center h-[500px] lg:h-[800px] py-24"
     >
       <li className="text-[clamp(48px,14vw,250px)] font-bold tracking-tight leading-[0.85] overflow-hidden flex">
-        <span className="letter relative inline-block">
-          <span>M</span>
-          <span className="absolute bottom-full left-0">M</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>O</span>
-          <span className="absolute bottom-full left-0">O</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>D</span>
-          <span className="absolute bottom-full left-0">D</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>E</span>
-          <span className="absolute bottom-full left-0">E</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>R</span>
-          <span className="absolute bottom-full left-0">R</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>N</span>
-          <span className="absolute bottom-full left-0">N</span>
-        </span>
-      </li>
-      <li className="text-[clamp(48px,14vw,250px)] font-bold tracking-tight leading-[0.9] lg:leading-[0.85] overflow-hidden flex">
-        <span className="letter relative inline-block">
-          <span>T</span>
-          <span className="absolute bottom-full left-0">T</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>E</span>
-          <span className="absolute bottom-full left-0">E</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>C</span>
-          <span className="absolute bottom-full left-0">C</span>
-        </span>
-        <span className="letter relative inline-block mr-[clamp(16px,4.5vw,72px)]">
-          <span>H</span>
-          <span className="absolute bottom-full left-0">H</span>
-        </span>
+  <span className="letter relative inline-block">
+    <span>S</span>
+    <span className="absolute bottom-full left-0">S</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>T</span>
+    <span className="absolute bottom-full left-0">T</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>B</span>
+    <span className="absolute bottom-full left-0">B</span>
+  </span>
+</li>
 
-        <span className="letter relative inline-block">
-          <span>S</span>
-          <span className="absolute bottom-full left-0">S</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>T</span>
-          <span className="absolute bottom-full left-0">T</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>A</span>
-          <span className="absolute bottom-full left-0">A</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>C</span>
-          <span className="absolute bottom-full left-0">C</span>
-        </span>
-        <span className="letter relative inline-block">
-          <span>K</span>
-          <span className="absolute bottom-full left-0">K</span>
-        </span>
-      </li>
+<li className="text-[clamp(48px,14vw,250px)] font-bold tracking-tight leading-[0.9] lg:leading-[0.85] overflow-hidden flex">
+  <span className="letter relative inline-block">
+    <span>C</span>
+    <span className="absolute bottom-full left-0">C</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>R</span>
+    <span className="absolute bottom-full left-0">R</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>E</span>
+    <span className="absolute bottom-full left-0">E</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>A</span>
+    <span className="absolute bottom-full left-0">A</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>T</span>
+    <span className="absolute bottom-full left-0">T</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>O</span>
+    <span className="absolute bottom-full left-0">O</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>R</span>
+    <span className="absolute bottom-full left-0">R</span>
+  </span>
+  <span className="letter relative inline-block">
+    <span>S</span>
+    <span className="absolute bottom-full left-0">S</span>
+  </span>
+</li>
     </ul>
   );
 }

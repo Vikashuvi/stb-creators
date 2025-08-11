@@ -120,7 +120,7 @@ export default function CTAButton() {
               href="/"
               className="md:text-lg font-semibold text-neutral-100 uppercase"
             >
-              Jason Zubiate
+              STB Creators
             </Link>
             <Slider />
           </div>
@@ -163,8 +163,8 @@ function Slider() {
           transition={{ duration: 32, ease: "linear", repeat: Infinity }}
           className={`${lcddot.className} text-[10px] md:text-xs tracking-widest text-neutral-300 uppercase whitespace-nowrap pr-1.5`}
         >
-          Creative Design Engineer, Awwwards Stalker, Product Builder, Next.js
-          Enthusiast,
+          Creative Strategists,Brand Builders,Storytellers,Video Experts,Design Engineers,Content Architects
+
         </motion.p>
         <motion.p
           initial={{ x: 0 }}
@@ -172,8 +172,7 @@ function Slider() {
           transition={{ duration: 32, ease: "linear", repeat: Infinity }}
           className={`${lcddot.className} text-[10px] md:text-xs tracking-widest text-neutral-300 uppercase whitespace-nowrap pr-1.5`}
         >
-          Creative Design Engineer, Awwwards Stalker, Product Builder, Next.js
-          Enthusiast,
+          Creative Strategists,Brand Builders,Storytellers,Video Experts,Design Engineers,Content Architects
         </motion.p>
       </div>
     </div>

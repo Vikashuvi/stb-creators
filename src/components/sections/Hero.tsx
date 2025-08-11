@@ -38,7 +38,7 @@ export default function Hero() {
                   Seriously
                 </p>
                 <p className="text-[clamp(14px,1.2vw,20px)] uppercase font-semibold">
-                  Good
+                  Creative
                 </p>
               </motion.div>
             </div>
@@ -58,8 +58,8 @@ export default function Hero() {
                 className="w-full pointer-events-none lg:pr-[4vw]"
               >
                 <img
-                  src="/images/other/design.png"
-                  alt="Design"
+                  src="/images/other/content.png"
+                  alt="Content"
                   className="h-[15vw] md:h-[16vw] lg:h-[17vw]"
                 />
               </motion.div>
@@ -75,8 +75,8 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/images/other/engineer.png"
-                  alt="Engineer"
+                  src="/images/other/team.png"
+                  alt="Team"
                   className="w-full pointer-events-none"
                 />
               </motion.div>
@@ -104,7 +104,7 @@ export default function Hero() {
                 Seriously
               </p>
               <p className="text-[clamp(14px,1.2vw,20px)] uppercase block">
-                Good
+                Creative
               </p>
             </motion.div>
           </div>
@@ -120,8 +120,8 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/images/other/design.png"
-                  alt="Design"
+                  src="/images/other/content.png"
+                  alt="Content"
                   className="h-[10vw] w-auto object-contain pointer-events-none"
                 />
               </motion.div>
@@ -137,8 +137,8 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="/images/other/engineer.png"
-                  alt="Engineer"
+                  src="/images/other/team.png"
+                  alt="Team"
                   className="h-[10vw] w-auto object-contain pointer-events-none"
                 />
               </motion.div>
@@ -159,7 +159,7 @@ export default function Hero() {
           >
             <ArrowDown className="w-[clamp(16px,1.3vw,24px)] h-[clamp(16px,1.3vw,24px)] text-neutral-900" />
             <p className="text-[clamp(12px,1.2vw,20px)] font-medium">
-              Scroll for
+              Scroll to know
             </p>
           </motion.div>
         </div>
@@ -175,7 +175,7 @@ export default function Hero() {
             className="flex items-center gap-1"
           >
             <p className="text-[clamp(12px,1.2vw,20px)] font-medium">
-              cool sh*t
+              More about us
             </p>
             <ArrowDown className="w-[clamp(16px,1.3vw,24px)] h-[clamp(16px,1.3vw,24px)] text-neutral-900" />
           </motion.div>
