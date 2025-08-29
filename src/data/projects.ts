@@ -99,7 +99,7 @@ export const projects: Project[] = [
     year: 2025,
     url: null,
     backgroundImageUrl: "/images/work/trackstack/cover.jpg",
-    videoUrl: "/videos/trackstack-preview-compressed.mp4",
+    videoUrl: "/videos/Tikitoro.mp4",
     media: [
       {
         type: "image",
@@ -170,7 +170,7 @@ export const projects: Project[] = [
     year: 2024,
     url: "https://kick-bass.com",
     backgroundImageUrl: "/images/work/kick-bass/cover.png",
-    videoUrl: "/videos/kickbass-preview-compressed.mp4",
+    videoUrl: "/videos/Vishatosh_Timeline.mp4",
     media: [
       {
         type: "image",
@@ -236,7 +236,7 @@ export const projects: Project[] = [
     year: 2024,
     url: null,
     backgroundImageUrl: "/images/work/socialstats/cover.png",
-    videoUrl: "/videos/socialstats-preview-compressed.mp4",
+    videoUrl: "/videos/SSI.mp4",
     media: [
       {
         type: "image",
@@ -288,7 +288,7 @@ export const projects: Project[] = [
     year: 2024,
     url: "https://itsthewestend.com",
     backgroundImageUrl: "/images/other/westend.jpg",
-    videoUrl: "/videos/westend-preview-compressed.mp4",
+    videoUrl: "/videos/SSCONSTRUCTION.mp4",
     media: [
       {
         type: "image",
@@ -341,7 +341,7 @@ export const projects: Project[] = [
     url: "https://delivrd.live",
     backgroundImageUrl:
       "https://images.unsplash.com/photo-1617864848089-9c54bf240fe6?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    videoUrl: "/videos/delivrd-preview-compressed.mp4",
+    videoUrl: "/videos/Shree_home_constructions.mp4",
     media: [
       {
         type: "image",
