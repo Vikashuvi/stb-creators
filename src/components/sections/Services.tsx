@@ -8,7 +8,6 @@ import { useRef } from "react";
 import { lcddot } from "@/fonts";
 import Image from "next/image";
 import Copy from "@/components/layout/Copy";
-import { image } from "motion/react-client";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 

@@ -76,11 +76,24 @@ export default function Footer() {
             Github
           </a>
         </div>
+        <Link
+          href="/team"
+          onClick={(e) => {
+            e.preventDefault();
+            if (pathname === "/team") return;
+            router.push("/team", {
+              onTransitionReady: pageTransition,
+            });
+          }}
+          className="col-span-6 lg:col-span-3 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
+        >
+          Team
+        </Link>
         <a
           href="https://www.instagram.com/itsjay.us/"
           target="_blank"
           rel="noopener noreferrer"
-          className="col-span-6 lg:col-span-4 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
+          className="col-span-6 lg:col-span-3 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
         >
           Instagram
         </a>
@@ -88,7 +101,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/jasonzubiate/"
           target="_blank"
           rel="noopener noreferrer"
-          className="col-span-6 lg:col-span-4 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
+          className="col-span-6 lg:col-span-2 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
         >
           LinkedIn
         </a>
