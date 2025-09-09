@@ -31,36 +31,36 @@ const teamMembers = [
       "Team Leadership",
       "Client Relations"
     ],
-    image: "/images/team/fazil.jpg",
+    image: "/images/team/fazil.webp",
   },
   {
-    name: "Saranaksha S",
-    position: "Content Strategist",
+    name: "Suvarnalatha S",
+    position: "Intern",
+    role: "Intern",
+    skills: [
+      "Learning & Growth",
+      "Creative Support",
+      "Project Assistance",
+      "Team Support",
+      "Skill Development"
+    ],
+    image: "/images/team/suvamalatha.webp",
+  },
+  {
+    name: "Naren Kishor",
+    position: "Writer",
     role: "Writer",
     skills: [
-      "Content Strategy",
-      "Copywriting",
+      "Content Writing",
+      "Creative Copy",
       "Brand Voice",
-      "Social Media",
-      "Campaign Planning"
+      "Content Strategy",
+      "Editorial Skills"
     ],
-    image: "/images/team/saranaksha.jpg",
+    image: "/images/team/naren.webp",
   },
   {
-    name: "Namit Rohan",
-    position: "Visual Designer",
-    role: "Writer",
-    skills: [
-      "Visual Design",
-      "Brand Identity",
-      "UI/UX Design",
-      "Typography",
-      "Creative Concepts"
-    ],
-    image: "/images/team/namit.jpg",
-  },
-  {
-    name: "Jayshrinabu",
+    name: "Janishprabu",
     position: "Video Editor",
     role: "Video Editor",
     skills: [
@@ -70,23 +70,36 @@ const teamMembers = [
       "Sound Design",
       "Post Production"
     ],
-    image: "/images/team/jayshrinabu.jpg",
+    image: "/images/team/janish.webp",
   },
   {
-    name: "Karthikeyan Deivaraj",
-    position: "Digital Marketing Specialist",
+    name: "Karthikeyan Deivam",
+    position: "Video Editor & Writer",
     role: "Video Editor",
     skills: [
-      "Digital Marketing",
-      "Performance Ads",
-      "Analytics",
-      "Campaign Management",
-      "ROI Optimization"
+      "Video Editing",
+      "Writing",
+      "Creative Concepts",
+      "Content Creation",
+      "Post Production"
     ],
-    image: "/images/team/karthikeyan.jpg",
+    image: "/images/team/karthikeyan.webp",
   },
   {
-    name: "Thirugnanamorthy K",
+    name: "Archana",
+    position: "Writer",
+    role: "Writer",
+    skills: [
+      "Content Writing",
+      "Copywriting",
+      "Creative Writing",
+      "Brand Voice",
+      "Editorial Skills"
+    ],
+    image: "/images/team/archana.webp",
+  },
+  {
+    name: "Thirugnanamoorthy K",
     position: "Video Editor",
     role: "Video Editor",
     skills: [
@@ -96,7 +109,7 @@ const teamMembers = [
       "Audio Mixing",
       "Creative Editing"
     ],
-    image: "/images/team/thirugnanamorthy.jpg",
+    image: "/images/team/thiru.webp",
   },
   {
     name: "Santosh",
@@ -109,10 +122,10 @@ const teamMembers = [
       "Timeline Management",
       "Content Creation"
     ],
-    image: "/images/team/santosh.jpg",
+    image: "/images/team/santosh.webp",
   },
   {
-    name: "Maharshi K",
+    name: "Mahanithi K",
     position: "Video Editor",
     role: "Video Editor",
     skills: [
@@ -122,7 +135,7 @@ const teamMembers = [
       "Sound Design",
       "Creative Direction"
     ],
-    image: "/images/team/maharshi.jpg",
+    image: "/images/team/mahanithi.webp",
   },
   {
     name: "Archana",
@@ -135,7 +148,7 @@ const teamMembers = [
       "Process Optimization",
       "Quality Assurance"
     ],
-    image: "/images/team/archana.jpg",
+    image: "/images/team/archana-manager.webp",
   },
   {
     name: "Lavanya P",
@@ -148,7 +161,7 @@ const teamMembers = [
       "Brand Voice",
       "Editorial Skills"
     ],
-    image: "/images/team/lavanya.jpg",
+    image: "/images/team/lavanya.webp",
   },
   {
     name: "Subhiksha S",
@@ -161,10 +174,10 @@ const teamMembers = [
       "Creative Content",
       "Editorial Review"
     ],
-    image: "/images/team/subhiksha.jpg",
+    image: "/images/team/subhi.webp",
   },
   {
-    name: "K L Vimalnathan",
+    name: "K.I. Viswanesan",
     position: "Content Writer",
     role: "Writer",
     skills: [
@@ -174,7 +187,7 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Excellence"
     ],
-    image: "/images/team/vimalnathan.jpg",
+    image: "/images/team/viswanesan.webp",
   },
   {
     name: "Kalpana J",
@@ -187,10 +200,10 @@ const teamMembers = [
       "Project Support",
       "Team Collaboration"
     ],
-    image: "/images/team/kalpana.jpg",
+    image: "/images/team/kalpana.webp",
   },
   {
-    name: "DHARSHIKA H",
+    name: "Dharshika H",
     position: "Video Editor",
     role: "Video Editor",
     skills: [
@@ -200,10 +213,10 @@ const teamMembers = [
       "Visual Storytelling",
       "Content Creation"
     ],
-    image: "/images/team/dharshika.jpg",
+    image: "/images/team/darshika.webp",
   },
   {
-    name: "Shrutikya Suresh",
+    name: "Shruthilaya Suresh",
     position: "Intern",
     role: "Intern",
     skills: [
@@ -213,10 +226,10 @@ const teamMembers = [
       "Team Support",
       "Skill Development"
     ],
-    image: "/images/team/shrutikya.jpg",
+    image: "/images/team/shruthi.webp",
   },
   {
-    name: "Indira Sivaprasad",
+    name: "Indris Sivaperumal",
     position: "Video Editor",
     role: "Video Editor",
     skills: [
@@ -226,7 +239,7 @@ const teamMembers = [
       "Content Creation",
       "Visual Effects"
     ],
-    image: "/images/team/indira.jpg",
+    image: "/images/team/indris.webp",
   },
   {
     name: "Subash A M G",
@@ -239,10 +252,10 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Skills"
     ],
-    image: "/images/team/subash.jpg",
+    image: "/images/team/subash.webp",
   },
   {
-    name: "Harsh Muthusamy",
+    name: "Harini Muthusamy",
     position: "Content Writer",
     role: "Writer",
     skills: [
@@ -252,9 +265,10 @@ const teamMembers = [
       "Content Development",
       "Editorial Review"
     ],
-    image: "/images/team/harsh.jpg",
+    image: "/images/team/harini.webp",
   }
 ];
+
 
 export default function Team() {
   return (

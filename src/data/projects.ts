@@ -145,7 +145,7 @@ export const projects: Project[] = [
   },
   {
     title: "Kick & Bass",
-    icon: "/images/work/kick-bass/kick-bass-icon.png",
+    icon: "/images/work/kick-bass/icon.png",
     slug: "kick-bass",
     category: "Services",
     keywords: [
