@@ -43,13 +43,12 @@ export const projects: Project[] = [
     ],
     year: 2025,
     url: "https://www.instagram.com/p/DM7nkHNSero/",
-    backgroundImageUrl:
-      "",
     videoUrl: "/videos/jazmin-wong-preview-compressed.mp4",
+    backgroundImageUrl: "/images/work/enerjoy/cover.png",
     media: [
       {
         type: "video",
-        url: "/videos/work/enerjoy/image-01.png",
+        url: "/videos/work/enerjoy/img1.png",
       },
       {
         type: "image",
@@ -74,9 +73,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Trackstack",
-    icon: "/images/work/trackstack/trackstack-icon.png",
-    slug: "trackstack",
+    title: "Tikitoro",
+    icon: "/images/work/trackstack/icon.png",
+    slug: "tikitoro",
     category: "Product",
     keywords: [
       "Art Direction",
@@ -98,12 +97,12 @@ export const projects: Project[] = [
     ],
     year: 2025,
     url: null,
-    backgroundImageUrl: "/images/work/trackstack/cover.jpg",
+    backgroundImageUrl: "/images/work/trackstack/banner.png",
     videoUrl: "/videos/Tikitoro.mp4",
     media: [
       {
         type: "image",
-        url: "/images/work/trackstack/image-01.png",
+        url: "/images/work/trackstack/img1.png",
       },
       {
         type: "image",
@@ -144,9 +143,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Kick & Bass",
+    title: "Visathosh",
     icon: "/images/work/kick-bass/icon.png",
-    slug: "kick-bass",
+    slug: "visathosh",
     category: "Services",
     keywords: [
       "Art Direction",
@@ -174,11 +173,11 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
-        url: "/images/work/kick-bass/image-01.png",
+        url: "/images/work/kick-bass/img1.png",
       },
       {
         type: "image",
-        url: "/images/work/kick-bass/image-02.png",
+        url: "/images/work/kick-bass/img2.png",
       },
       {
         type: "image",
@@ -211,9 +210,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Socialstats",
-    icon: "/images/work/socialstats/socialstats-icon.png",
-    slug: "socialstats",
+    title: "SSI",
+    icon: "/images/work/socialstats/logo.jpg",
+    slug: "ssi",
     category: "Product",
     keywords: [
       "Research & Insights",
@@ -240,7 +239,7 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
-        url: "/images/work/socialstats/image-01.png",
+        url: "/images/work/socialstats/img1.png",
       },
       {
         type: "image",
@@ -265,9 +264,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Westend",
-    icon: "/images/work/westend/westend-icon.png",
-    slug: "westend",
+    title: "SS Constructions",
+    icon: "/images/work/westend/icon.png",
+    slug: "ss-constructions",
     category: "Portfolio",
     keywords: [
       "Art Direction",
@@ -287,12 +286,12 @@ export const projects: Project[] = [
     ],
     year: 2024,
     url: "https://itsthewestend.com",
-    backgroundImageUrl: "/images/other/westend.jpg",
+    backgroundImageUrl: "/images/work/westend/cover.png",
     videoUrl: "/videos/SSCONSTRUCTION.mp4",
     media: [
       {
         type: "image",
-        url: "/images/work/westend/image-01.png",
+        url: "/images/work/westend/img1.png",
       },
       {
         type: "image",
@@ -317,9 +316,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "DELIVRD",
-    icon: "/images/work/delivrd/delivrd-icon.png",
-    slug: "delivrd",
+    title: "Shree home constructions",
+    icon: "/images/work/delivrd/logo.jpg",
+    slug: "shree-home-constructions",
     category: "Showcase",
     keywords: [
       "Next.js",
@@ -340,7 +339,7 @@ export const projects: Project[] = [
     year: 2023,
     url: "https://delivrd.live",
     backgroundImageUrl:
-      "https://images.unsplash.com/photo-1617864848089-9c54bf240fe6?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/images/work/delivrd/cover.png",
     videoUrl: "/videos/Shree_home_constructions.mp4",
     media: [
       {
@@ -353,6 +352,45 @@ export const projects: Project[] = [
       },
     ],
   },
+
+  // {
+  //   title: "Sew with jannu",
+  //   icon: "/images/work/delivrd/logo.jpg",
+  //   slug: "sew-with-jannu",
+  //   category: "Showcase",
+  //   keywords: [
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "GSAP",
+  //     "Lenis",
+  //     "Supabase",
+  //     "Vercel",
+  //     "Web Design",
+  //     "Responsive Design",
+  //   ],
+  //   summary: [
+  //     "Developed a website that helps aspiring EDM producers easily ",
+  //     "find and submit demos to popular labels. Designed with a clean, ",
+  //     "minimal aesthetic and subtle micro-animations for an engaging ",
+  //     "user experience. I continue to maintain and improve the site.",
+  //   ],
+  //   year: 2023,
+  //   url: "https://delivrd.live",
+  //   backgroundImageUrl:
+  //     "/images/work/SWJ/cover.png",
+  //   videoUrl: "/videos/Shree_home_constructions.mp4",
+  //   media: [
+  //     {
+  //       type: "image",
+  //       url: "/images/work/delivrd/image-01.png",
+  //     },
+  //     {
+  //       type: "image",
+  //       url: "/images/work/delivrd/image-02.png",
+  //     },
+  //   ],
+  // },
+  
   // {
   //   title: "Presave",
   //   projectType: ["Web Design"],
