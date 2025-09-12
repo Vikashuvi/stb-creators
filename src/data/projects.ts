@@ -47,29 +47,14 @@ export const projects: Project[] = [
     backgroundImageUrl: "/images/work/enerjoy/cover.png",
     media: [
       {
-        type: "video",
-        url: "/videos/work/enerjoy/img1.png",
+        type: "image",
+        url: "/images/work/enerjoy/img1.png",
       },
       {
         type: "image",
-        url: "/images/work/enerjoy/image-03.png",
+        url: "/images/work/enerjoy/img2.png",
       },
-      {
-        type: "image",
-        url: "/images/work/enerjoy/image-03.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/enerjoy/image-04.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/enerjoy/image-05.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/enerjoy/image-06.png",
-      },
+
     ],
   },
   {
@@ -106,39 +91,7 @@ export const projects: Project[] = [
       },
       {
         type: "image",
-        url: "/images/work/trackstack/image-02.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-07.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-03.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-05.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-06.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-04.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-08.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-09.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/trackstack/image-10.png",
+        url: "/images/work/trackstack/img2.png",
       },
     ],
   },
@@ -179,34 +132,6 @@ export const projects: Project[] = [
         type: "image",
         url: "/images/work/kick-bass/img2.png",
       },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-03.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-04.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-05.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-06.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-07.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-08.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/kick-bass/image-09.png",
-      },
     ],
   },
   {
@@ -243,24 +168,9 @@ export const projects: Project[] = [
       },
       {
         type: "image",
-        url: "/images/work/socialstats/image-02.png",
+        url: "/images/work/socialstats/img2.png",
       },
-      {
-        type: "image",
-        url: "/images/work/socialstats/image-03.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/socialstats/image-04.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/socialstats/image-05.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/socialstats/image-06.png",
-      },
+      
     ],
   },
   {
@@ -295,23 +205,7 @@ export const projects: Project[] = [
       },
       {
         type: "image",
-        url: "/images/work/westend/image-02.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/westend/image-03.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/westend/image-04.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/westend/image-05.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/westend/image-06.png",
+        url: "/images/work/westend/img2.png",
       },
     ],
   },
@@ -344,6 +238,40 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
+        url: "/images/work/delivrd/img1.png",
+      },
+    ],
+  },
+
+  {
+    title: "Sew with jannu",
+    icon: "/images/work/delivrd/logo.jpg",
+    slug: "sew-with-jannu",
+    category: "Showcase",
+    keywords: [
+      "Next.js",
+      "Tailwind CSS",
+      "GSAP",
+      "Lenis",
+      "Supabase",
+      "Vercel",
+      "Web Design",
+      "Responsive Design",
+    ],
+    summary: [
+      "Developed a website that helps aspiring EDM producers easily ",
+      "find and submit demos to popular labels. Designed with a clean, ",
+      "minimal aesthetic and subtle micro-animations for an engaging ",
+      "user experience. I continue to maintain and improve the site.",
+    ],
+    year: 2023,
+    url: "https://delivrd.live",
+    backgroundImageUrl:
+      "/images/work/SWJ/cover.png",
+    videoUrl: "/videos/Shree_home_constructions.mp4",
+    media: [
+      {
+        type: "image",
         url: "/images/work/delivrd/image-01.png",
       },
       {
@@ -352,44 +280,6 @@ export const projects: Project[] = [
       },
     ],
   },
-
-  // {
-  //   title: "Sew with jannu",
-  //   icon: "/images/work/delivrd/logo.jpg",
-  //   slug: "sew-with-jannu",
-  //   category: "Showcase",
-  //   keywords: [
-  //     "Next.js",
-  //     "Tailwind CSS",
-  //     "GSAP",
-  //     "Lenis",
-  //     "Supabase",
-  //     "Vercel",
-  //     "Web Design",
-  //     "Responsive Design",
-  //   ],
-  //   summary: [
-  //     "Developed a website that helps aspiring EDM producers easily ",
-  //     "find and submit demos to popular labels. Designed with a clean, ",
-  //     "minimal aesthetic and subtle micro-animations for an engaging ",
-  //     "user experience. I continue to maintain and improve the site.",
-  //   ],
-  //   year: 2023,
-  //   url: "https://delivrd.live",
-  //   backgroundImageUrl:
-  //     "/images/work/SWJ/cover.png",
-  //   videoUrl: "/videos/Shree_home_constructions.mp4",
-  //   media: [
-  //     {
-  //       type: "image",
-  //       url: "/images/work/delivrd/image-01.png",
-  //     },
-  //     {
-  //       type: "image",
-  //       url: "/images/work/delivrd/image-02.png",
-  //     },
-  //   ],
-  // },
   
   // {
   //   title: "Presave",

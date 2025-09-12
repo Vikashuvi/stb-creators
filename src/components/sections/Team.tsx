@@ -21,122 +21,19 @@ type TeamMember = {
 
 const teamMembers = [
   {
-    name: "Fazil Rahman",
-    position: "Founder & Creative Director",
-    role: "Video Editor",
+    name: "Krishna Kumar",
+    position: "Founder",
+    role: "Founder",
     skills: [
-      "Creative Direction",
-      "Brand Strategy",
-      "Video Production",
-      "Team Leadership",
-      "Client Relations"
+      "Leadership",
+      "Vision",
+      "Strategy",
+      "Business Development",
+      "Team Building"
     ],
-    image: "/images/team/fazil.webp",
+    image: "/images/team/krishna.png",
   },
-  {
-    name: "Suvarnalatha S",
-    position: "Intern",
-    role: "Intern",
-    skills: [
-      "Learning & Growth",
-      "Creative Support",
-      "Project Assistance",
-      "Team Support",
-      "Skill Development"
-    ],
-    image: "/images/team/suvamalatha.webp",
-  },
-  {
-    name: "Naren Kishor",
-    position: "Writer",
-    role: "Writer",
-    skills: [
-      "Content Writing",
-      "Creative Copy",
-      "Brand Voice",
-      "Content Strategy",
-      "Editorial Skills"
-    ],
-    image: "/images/team/naren.webp",
-  },
-  {
-    name: "Janishprabu",
-    position: "Video Editor",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Motion Graphics",
-      "Color Grading",
-      "Sound Design",
-      "Post Production"
-    ],
-    image: "/images/team/janish.webp",
-  },
-  {
-    name: "Karthikeyan Deivam",
-    position: "Video Editor & Writer",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Writing",
-      "Creative Concepts",
-      "Content Creation",
-      "Post Production"
-    ],
-    image: "/images/team/karthikeyan.webp",
-  },
-  {
-    name: "Archana",
-    position: "Writer",
-    role: "Writer",
-    skills: [
-      "Content Writing",
-      "Copywriting",
-      "Creative Writing",
-      "Brand Voice",
-      "Editorial Skills"
-    ],
-    image: "/images/team/archana.webp",
-  },
-  {
-    name: "Thirugnanamoorthy K",
-    position: "Video Editor",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Motion Graphics",
-      "Color Correction",
-      "Audio Mixing",
-      "Creative Editing"
-    ],
-    image: "/images/team/thiru.webp",
-  },
-  {
-    name: "Santosh",
-    position: "Video Editor",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Post Production",
-      "Visual Effects",
-      "Timeline Management",
-      "Content Creation"
-    ],
-    image: "/images/team/santosh.webp",
-  },
-  {
-    name: "Mahanithi K",
-    position: "Video Editor",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Motion Design",
-      "Color Grading",
-      "Sound Design",
-      "Creative Direction"
-    ],
-    image: "/images/team/mahanithi.webp",
-  },
+  // -----------Manager 👇------------
   {
     name: "Archana",
     position: "Project Manager",
@@ -149,6 +46,20 @@ const teamMembers = [
       "Quality Assurance"
     ],
     image: "/images/team/archana-manager.webp",
+  },
+  // -----------Writer 👇------------
+  {
+    name: "Naren Kishor",
+    position: "Writer",
+    role: "Writer",
+    skills: [
+      "Content Writing",
+      "Creative Copy",
+      "Brand Voice",
+      "Content Strategy",
+      "Editorial Skills"
+    ],
+    image: "/images/team/naren.webp",
   },
   {
     name: "Lavanya P",
@@ -190,58 +101,6 @@ const teamMembers = [
     image: "/images/team/viswanesan.webp",
   },
   {
-    name: "Kalpana J",
-    position: "Intern",
-    role: "Intern",
-    skills: [
-      "Learning & Development",
-      "Content Support",
-      "Creative Assistance",
-      "Project Support",
-      "Team Collaboration"
-    ],
-    image: "/images/team/kalpana.webp",
-  },
-  {
-    name: "Dharshika H",
-    position: "Video Editor",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Creative Editing",
-      "Post Production",
-      "Visual Storytelling",
-      "Content Creation"
-    ],
-    image: "/images/team/darshika.webp",
-  },
-  {
-    name: "Shruthilaya Suresh",
-    position: "Intern",
-    role: "Intern",
-    skills: [
-      "Learning & Growth",
-      "Creative Support",
-      "Project Assistance",
-      "Team Support",
-      "Skill Development"
-    ],
-    image: "/images/team/shruthi.webp",
-  },
-  {
-    name: "Indris Sivaperumal",
-    position: "Video Editor",
-    role: "Video Editor",
-    skills: [
-      "Video Editing",
-      "Post Production",
-      "Creative Direction",
-      "Content Creation",
-      "Visual Effects"
-    ],
-    image: "/images/team/indris.webp",
-  },
-  {
     name: "Subash A M G",
     position: "Content Writer",
     role: "Writer",
@@ -266,7 +125,165 @@ const teamMembers = [
       "Editorial Review"
     ],
     image: "/images/team/harini.webp",
-  }
+  },
+  {
+    name: "Archana",
+    position: "Writer",
+    role: "Writer",
+    skills: [
+      "Content Writing",
+      "Copywriting",
+      "Creative Writing",
+      "Brand Voice",
+      "Editorial Skills"
+    ],
+    image: "/images/team/archana.webp",
+  },
+  // -----------Video editor 👇------------
+  {
+    name: "Fazil Rahman",
+    position: "Founder & Creative Director",
+    role: "Video Editor",
+    skills: [
+      "Creative Direction",
+      "Brand Strategy",
+      "Video Production",
+      "Team Leadership",
+      "Client Relations"
+    ],
+    image: "/images/team/fazil.webp",
+  },
+  {
+    name: "Janishprabu",
+    position: "Video Editor",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Motion Graphics",
+      "Color Grading",
+      "Sound Design",
+      "Post Production"
+    ],
+    image: "/images/team/janish.webp",
+  },
+  {
+    name: "Karthikeyan Deivam",
+    position: "Video Editor & Writer",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Writing",
+      "Creative Concepts",
+      "Content Creation",
+      "Post Production"
+    ],
+    image: "/images/team/karthikeyan.webp",
+  },
+  {
+    name: "Thirugnanamoorthy K",
+    position: "Video Editor",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Motion Graphics",
+      "Color Correction",
+      "Audio Mixing",
+      "Creative Editing"
+    ],
+    image: "/images/team/thiru.webp",
+  },
+  {
+    name: "Santosh",
+    position: "Video Editor",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Post Production",
+      "Visual Effects",
+      "Timeline Management",
+      "Content Creation"
+    ],
+    image: "/images/team/santosh.webp",
+  },
+  {
+    name: "Mahanithi K",
+    position: "Video Editor",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Motion Design",
+      "Color Grading",
+      "Sound Design",
+      "Creative Direction"
+    ],
+    image: "/images/team/mahanithi.webp",
+  },
+  {
+    name: "Dharshika H",
+    position: "Video Editor",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Creative Editing",
+      "Post Production",
+      "Visual Storytelling",
+      "Content Creation"
+    ],
+    image: "/images/team/darshika.webp",
+  },
+  {
+    name: "Indris Sivaperumal",
+    position: "Video Editor",
+    role: "Video Editor",
+    skills: [
+      "Video Editing",
+      "Post Production",
+      "Creative Direction",
+      "Content Creation",
+      "Visual Effects"
+    ],
+    image: "/images/team/indris.webp",
+  },
+  // -----------intern👇------------
+  {
+    name: "Suvarnalatha S",
+    position: "Intern",
+    role: "Intern",
+    skills: [
+      "Learning & Growth",
+      "Creative Support",
+      "Project Assistance",
+      "Team Support",
+      "Skill Development"
+    ],
+    image: "/images/team/suvamalatha.webp",
+  },
+  {
+    name: "Kalpana J",
+    position: "Intern",
+    role: "Intern",
+    skills: [
+      "Learning & Development",
+      "Content Support",
+      "Creative Assistance",
+      "Project Support",
+      "Team Collaboration"
+    ],
+    image: "/images/team/kalpana.webp",
+  },
+  {
+    name: "Shruthilaya Suresh",
+    position: "Intern",
+    role: "Intern",
+    skills: [
+      "Learning & Growth",
+      "Creative Support",
+      "Project Assistance",
+      "Team Support",
+      "Skill Development"
+    ],
+    image: "/images/team/shruthi.webp",
+  },
 ];
 
 
