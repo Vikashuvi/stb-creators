@@ -8,6 +8,7 @@ import { motion, useInView } from "motion/react";
 import useWindowSize from "@/hooks/useWindowSize";
 import { ArrowDown, Volume2, VolumeX } from "lucide-react";
 import useInitialLoad from "@/contexts/initial-load-context";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,10 +58,13 @@ export default function Hero() {
                 }}
                 className="w-full pointer-events-none lg:pr-[4vw]"
               >
-                <img
+                <Image
                   src="/images/other/content.png"
                   alt="Content"
+                  width={400}
+                  height={400}
                   className="h-[15vw] md:h-[16vw] lg:h-[17vw]"
+                  priority
                 />
               </motion.div>
             </div>
@@ -74,10 +78,13 @@ export default function Hero() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
               >
-                <img
+                <Image
                   src="/images/other/team.png"
                   alt="Team"
+                  width={800}
+                  height={400}
                   className="w-full pointer-events-none"
+                  priority
                 />
               </motion.div>
             </div>
@@ -119,10 +126,13 @@ export default function Hero() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
               >
-                <img
+                <Image
                   src="/images/other/content.png"
                   alt="Content"
+                  width={400}
+                  height={400}
                   className="h-[10vw] w-auto object-contain pointer-events-none"
+                  priority
                 />
               </motion.div>
             </div>
@@ -136,10 +146,13 @@ export default function Hero() {
                   ease: [0.16, 1, 0.3, 1],
                 }}
               >
-                <img
+                <Image
                   src="/images/other/team.png"
                   alt="Team"
+                  width={800}
+                  height={400}
                   className="h-[10vw] w-auto object-contain pointer-events-none"
+                  priority
                 />
               </motion.div>
             </div>

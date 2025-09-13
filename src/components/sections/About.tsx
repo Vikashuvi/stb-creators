@@ -3,7 +3,6 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { motion, useInView } from "motion/react";
 import { useRef } from "react";
 import { wrapWordsInSpan } from "@/utils/string";
 import useWindowSize from "@/hooks/useWindowSize";
@@ -13,14 +12,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   const paragraphRef = useRef<HTMLParagraphElement>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
 
   const { width } = useWindowSize();
-
-  const isVideoInView = useInView(videoRef, {
-    once: false,
-    margin: "0px 0px -30% 0px",
-  });
 
   useGSAP(() => {
     if (width < 1024) return;
@@ -91,19 +84,13 @@ export default function About() {
 
         {/* Mobile video */}
         <div className="lg:hidden col-span-12 aspect-video rounded-lg overflow-hidden mb-4">
-          <motion.video
-            ref={videoRef}
-            initial={{ clipPath: "inset(0 0 100% 0)" }}
-            animate={isVideoInView ? { clipPath: "inset(0 0 0 0)" } : {}}
-            transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-            src="/videos/about-video-compressed.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="pointer-events-none w-full h-full object-cover"
-            onError={(e) => console.error("Video loading error:", e)}
-            poster="/images/about-poster.jpg"
+          <Image
+            src="/images/team/krishna.png"
+            alt="Krishna, Founder"
+            width={800}
+            height={450}
+            className="pointer-events-none"
+            priority
           />
         </div>
 
@@ -129,16 +116,18 @@ Passionate about design and tech, he builds engaging content ecosystems for bran
       {/* Desktop video */}
       <div className="hidden lg:block h-full col-span-5">
         <div className="sticky top-[calc(100vh-20vw-172px)] w-full aspect-video rounded-lg lg:rounded-xl overflow-hidden">
-          <video
-            src="/videos/about-video-compressed.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
+          <Image
+            src="/images/team/krishna.png"
+            alt="Krishna, Founder"
+            width={800}
+            height={450}
             className="pointer-events-none"
+            priority
           />
         </div>
       </div>
     </section>
   );
 }
+
+import Image from "next/image";

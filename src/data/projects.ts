@@ -323,89 +323,89 @@ export const projects: Project[] = [
 
   },
   
-  {
-    title: "Rivera",
-    icon: "/images/work/rivera/logo.jpg",
-    slug: "rivera",
-    category: "Showcase",
-    keywords: [
-      "Next.js",
-      "Tailwind CSS",
-      "GSAP",
-      "Lenis",
-      "Supabase",
-      "Vercel",
-      "Web Design",
-      "Responsive Design",
-    ],
-    summary: [
-      "Developed a website that helps aspiring EDM producers easily ",
-      "find and submit demos to popular labels. Designed with a clean, ",
-      "minimal aesthetic and subtle micro-animations for an engaging ",
-      "user experience. I continue to maintain and improve the site.",
-    ],
-    year: 2023,
-    url: "https://delivrd.live",
-    backgroundImageUrl:
-      "/images/work/rivera/cover.png",
-    videoUrl: "/videos/",
-    media: [
-      {
-        type: "image",
-        url: "/images/work/rivera/img1.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/rivera/img2.png",
-      },
-    ],
+  // {
+  //   title: "Rivera",
+  //   icon: "/images/work/rivera/logo.jpg",
+  //   slug: "rivera",
+  //   category: "Showcase",
+  //   keywords: [
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "GSAP",
+  //     "Lenis",
+  //     "Supabase",
+  //     "Vercel",
+  //     "Web Design",
+  //     "Responsive Design",
+  //   ],
+  //   summary: [
+  //     "Developed a website that helps aspiring EDM producers easily ",
+  //     "find and submit demos to popular labels. Designed with a clean, ",
+  //     "minimal aesthetic and subtle micro-animations for an engaging ",
+  //     "user experience. I continue to maintain and improve the site.",
+  //   ],
+  //   year: 2023,
+  //   url: "https://delivrd.live",
+  //   backgroundImageUrl:
+  //     "/images/work/rivera/cover.png",
+  //   videoUrl: "/videos/",
+  //   media: [
+  //     {
+  //       type: "image",
+  //       url: "/images/work/rivera/img1.png",
+  //     },
+  //     {
+  //       type: "image",
+  //       url: "/images/work/rivera/img2.png",
+  //     },
+  //   ],
     
 
     
     
 
-  },
+  // },
 
-  {
-    title: "IIEC  ",
-    icon: "/images/work/iiec/logo.png",
-    slug: "iiec",
-    category: "Showcase",
-    keywords: [
-      "Next.js",
-      "Tailwind CSS",
-      "GSAP",
-      "Lenis",
-      "Supabase",
-      "Vercel",
-      "Web Design",
-      "Responsive Design",
-    ],
-    summary: [
-      "Developed a website that helps aspiring EDM producers easily ",
-      "find and submit demos to popular labels. Designed with a clean, ",
-      "minimal aesthetic and subtle micro-animations for an engaging ",
-      "user experience. I continue to maintain and improve the site.",
-    ],
-    year: 2023,
-    url: "https://delivrd.live",
-    backgroundImageUrl:
-      "/images/work/iiec/cover.png",
-    videoUrl: "/videos/",
-    media: [
-      {
-        type: "image",
-        url: "/images/work/iiec/img1.png",
-      },
-      {
-        type: "image",
-        url: "/images/work/iiec/img2.png",
-      },
-    ],
+  // {
+  //   title: "IIEC  ",
+  //   icon: "/images/work/iiec/logo.png",
+  //   slug: "iiec",
+  //   category: "Showcase",
+  //   keywords: [
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "GSAP",
+  //     "Lenis",
+  //     "Supabase",
+  //     "Vercel",
+  //     "Web Design",
+  //     "Responsive Design",
+  //   ],
+  //   summary: [
+  //     "Developed a website that helps aspiring EDM producers easily ",
+  //     "find and submit demos to popular labels. Designed with a clean, ",
+  //     "minimal aesthetic and subtle micro-animations for an engaging ",
+  //     "user experience. I continue to maintain and improve the site.",
+  //   ],
+  //   year: 2023,
+  //   url: "https://delivrd.live",
+  //   backgroundImageUrl:
+  //     "/images/work/iiec/cover.png",
+  //   videoUrl: "/videos/",
+  //   media: [
+  //     {
+  //       type: "image",
+  //       url: "/images/work/iiec/img1.png",
+  //     },
+  //     {
+  //       type: "image",
+  //       url: "/images/work/iiec/img2.png",
+  //     },
+  //   ],
 
 
 
-  },
+  // },
 
   // {
   //   title: "Presave",
