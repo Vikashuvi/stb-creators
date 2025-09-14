@@ -106,7 +106,7 @@ export default function CTAButton() {
         <div className="flex items-center gap-4 md:gap-5">
           <div className="h-[60px] w-[60px] md:h-[80px] md:w-[80px] rounded-lg md:rounded-xl bg-neutral-100 overflow-hidden relative">
             <video
-              src="/videos/emoji.mov"
+              src="/videos/Memoji-light-mode.mp4"
               autoPlay
               muted
               loop
