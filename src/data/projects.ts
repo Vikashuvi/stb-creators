@@ -43,7 +43,7 @@ export const projects: Project[] = [
     ],
     year: 2025,
     url: "https://www.instagram.com/p/DM7nkHNSero/",
-    videoUrl: "/videos/jazmin-wong-preview-compressed.mp4",
+    videoUrl: "/videos/Enerjoy_1.mp4",
     backgroundImageUrl: "/images/work/enerjoy/cover.png",
     media: [
       {

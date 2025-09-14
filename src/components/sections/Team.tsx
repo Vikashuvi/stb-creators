@@ -98,7 +98,7 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Excellence"
     ],
-    image: "/images/team/viswanesan.webp",
+    image: "/images/team/viswanes.jpg",
   },
   {
     name: "Subash A M G",

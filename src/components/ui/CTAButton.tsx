@@ -25,8 +25,8 @@ const navItems = [
     imageUrl: "/images/pages/work-icon.png",
   },
   {
-    title: "Lab",
-    href: "/lab",
+    title: "Team",
+    href: "/team",
     imageUrl: "/images/pages/lab-icon.png",
   },
 ];
