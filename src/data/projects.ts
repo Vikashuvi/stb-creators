@@ -43,13 +43,18 @@ export const projects: Project[] = [
     backgroundImageUrl: "/images/work/enerjoy/cover.png",
     media: [
       {
-        type: "image",
-        url: "/images/work/enerjoy/img1.png",
+        type: "video",
+        url: "/videos/Enerjoy_1.mp4",
       },
       {
         type: "image",
         url: "/images/work/enerjoy/img2.png",
       },
+      {
+        type: "image",
+        url: "/images/work/enerjoy/img1.png",
+      },
+      
     ],
   },
   {
@@ -80,12 +85,16 @@ export const projects: Project[] = [
     videoUrl: "/videos/Tikitoro.mp4",
     media: [
       {
-        type: "image",
-        url: "/images/work/trackstack/img1.png",
+        type: "video",
+        url: "/videos/Tikitoro.mp4",
       },
       {
         type: "image",
         url: "/images/work/trackstack/img2.png",
+      },
+      {
+        type: "image",
+        url: "/images/work/trackstack/img1.png",
       },
     ],
   },
@@ -117,12 +126,16 @@ export const projects: Project[] = [
     videoUrl: "/videos/Vishatosh_Timeline.mp4",
     media: [
       {
-        type: "image",
-        url: "/images/work/kick-bass/img1.png",
+        type: "video",
+        url: "/videos/Vishatosh_Timeline.mp4",
       },
       {
         type: "image",
         url: "/images/work/kick-bass/img2.png",
+      },
+      {
+        type: "image",
+        url: "/images/work/kick-bass/img1.png",
       },
     ],
   },
@@ -153,12 +166,16 @@ export const projects: Project[] = [
   videoUrl: "/videos/SSI.mp4",
   media: [
     {
-      type: "image",
-      url: "/images/work/socialstats/img1.png",
+      type: "video",
+      url: "/videos/SSI.mp4",
     },
     {
       type: "image",
       url: "/images/work/socialstats/img2.png",
+    },
+    {
+      type: "image",
+      url: "/images/work/socialstats/img1.png",
     },
   ],
 },
@@ -191,12 +208,16 @@ export const projects: Project[] = [
     videoUrl: "/videos/SSCONSTRUCTION.mp4",
     media: [
       {
-        type: "image",
-        url: "/images/work/westend/img1.png",
+        type: "video",
+        url: "/videos/SSCONSTRUCTION.mp4",
       },
       {
         type: "image",
         url: "/images/work/westend/img2.png",
+      },
+      {
+        type: "image",
+        url: "/images/work/westend/img1.png",
       },
     ],
   },
@@ -227,6 +248,10 @@ export const projects: Project[] = [
     backgroundImageUrl: "/images/work/delivrd/cover.png",
     videoUrl: "/videos/Shree_home_constructions.mp4",
     media: [
+      {
+        type: "video",
+        url: "/videos/Shree_home_constructions.mp4",
+      },
       {
         type: "image",
         url: "/images/work/delivrd/img1.png",
@@ -262,11 +287,11 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
-        url: "/images/work/SWJ/img1.png",
+        url: "/images/work/SWJ/img2.png",
       },
       {
         type: "image",
-        url: "/images/work/SWJ/img2.png",
+        url: "/images/work/SWJ/img1.png",
       },
     ],
   },
@@ -300,11 +325,11 @@ export const projects: Project[] = [
     media: [
       {
         type: "image",
-        url: "/images/work/saran/img1.png",
+        url: "/images/work/saran/img2.png",
       },
       {
         type: "image",
-        url: "/images/work/saran/img2.png",
+        url: "/images/work/saran/img1.png",
       },
     ],
   },

@@ -182,47 +182,38 @@ export default function Project({ params }: { params: Promise<PageParams> }) {
 
           <div className="flex flex-col gap-4 lg:gap-5">
             {project.media.map((media, index) => {
-              // Every 4th item (index 2, 6, 10...) starts a half-width pair
+              // Remove the split for the 3rd image and render full width
               if (index % 4 === 2) {
                 return (
-                  <div key={index} className="flex gap-4 lg:gap-5">
-                    <div className="w-1/2 h-[160px] lg:h-[clamp(600px,40vw,1200px)] rounded-lg lg:rounded-xl overflow-hidden relative">
-                      {media.type === "image" ? (
-                        <Image
-                          src={media.url}
-                          alt={project.title}
-                          fill
-                          className="object-contain"
-                        />
-                      ) : (
-                        <video
-                          src={media.url}
-                          autoPlay
-                          muted
-                          loop
-                          playsInline
-                        />
-                      )}
-                    </div>
-                    <motion.div className="w-1/2 h-[160px] lg:h-[clamp(600px,40vw,1200px)] rounded-lg lg:rounded-xl overflow-hidden relative">
-                      {project.media[index + 1]?.type === "image" ? (
-                        <Image
-                          src={project.media[index + 1].url}
-                          alt={project.title}
-                          fill
-                          className="object-contain"
-                        />
-                      ) : (
-                        <video
-                          src={project.media[index + 1]?.url}
-                          autoPlay
-                          muted
-                          loop
-                          playsInline
-                        />
-                      )}
-                    </motion.div>
-                  </div>
+                  <motion.div
+                    key={index}
+                    initial={{ y: 32, opacity: 0, scale: 0.98 }}
+                    animate={{ y: 0, opacity: 1, scale: 1 }}
+                    transition={{
+                      duration: 1,
+                      delay: isInitialLoad ? 3.5 : 1.5,
+                      ease: [0.16, 1, 0.3, 1],
+                    }}
+                    className="w-full h-[200px] lg:h-[clamp(600px,57vw,1200px)] rounded-lg lg:rounded-xl overflow-hidden relative"
+                  >
+                    {media.type === "image" ? (
+                      <Image
+                        src={media.url}
+                        alt={project.title}
+                        fill
+                        className="object-contain"
+                      />
+                    ) : (
+                      <video
+                        src={media.url}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="object-cover object-center h-full"
+                      />
+                    )}
+                  </motion.div>
                 );
               }
 

@@ -54,7 +54,7 @@ function MailButton() {
           <div className="overflow-hidden h-6 lg:h-7">
             <div className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:-translate-y-1/2">
               <span className="text-[clamp(16px,1.2vw,20px)] text-neutral-100 font-semibold mb-1.5">
-                Get in touch
+                <a href="mailto:thestbcompanygmail.com">Get in touch</a>
               </span>
               <span className="text-[clamp(16px,1.2vw,20px)] text-neutral-100 font-semibold mb-1.5">
                 Get in touch
