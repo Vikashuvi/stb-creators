@@ -32,7 +32,7 @@ const services = [
       "Visual Identity",
       "Workshops",
     ],
-    image: "/images/services/brand-strategy.png",
+    image: "/images/services/brandstrategy.png",
   },
   {
   title: "Relatable Storytelling",
@@ -44,7 +44,7 @@ const services = [
     "Brand Voice",
     "On-Location Filming"
   ],
-  image: "/images/services/development.png"
+  image: "/images/services/storytelling.png"
 },
 
 
@@ -60,7 +60,7 @@ const services = [
     "Content Strategy"
   ],
 
-    image: "/images/services/development.png",
+    image: "/images/services/visualstory.png",
   },
   {
   title: "Web Designing",
@@ -71,7 +71,7 @@ const services = [
     "UI/UX",
     "Landing pages",
   ],
-    image: "/images/services/digital-design.png",
+    image: "/images/services/web.png",
   },
   {
   title: "Performance Ads",
@@ -83,7 +83,7 @@ const services = [
     "Ad Creative",
   
   ],
-  image: "/images/services/performance-ads.png",
+  image: "/images/services/performanceads.png",
 },
 
 ];
