@@ -18,7 +18,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "ENERJOY",
-    icon: "/images/work/enerjoy/enerjoylogo.jpeg",
+    icon: "/images/work/enerjoy/enerjoylogo.jpg",
     slug: "jazmin-wong",
     category: "Portfolio",
     keywords: [
@@ -90,8 +90,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Visathosh",
-    icon: "/images/work/kick-bass/icon.png",
+    title: "Visatosh",
+    icon: "/images/work/kick-bass/logo.jpg",
     slug: "visathosh",
     category: "Services",
     keywords: [
@@ -236,7 +236,7 @@ export const projects: Project[] = [
 
   {
     title: "Sew with jannu",
-    icon: "/images/work/delivrd/logo.jpg",
+    icon: "/images/work/SWJ/logo.jpg",
     slug: "sew-with-jannu",
     category: "Showcase",
     keywords: [

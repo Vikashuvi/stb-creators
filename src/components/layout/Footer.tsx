@@ -50,18 +50,18 @@ export default function Footer() {
      
         <div className="col-span-12 lg:col-span-4 grid grid-cols-2 lg:grid-rows-2 gap-2 lg:gap-4">
           <a
-            href="mailto:jason@itsjay.us"
+            href="mailto:thestbcompany@gmail.com"
             className="lg:col-span-12 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-full rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
           >
             Contact
           </a>
           <a
-            href="https://github.com/jasonzubiate"
+            href="https://topmate.io/stb_krishmark12/"
             target="_blank"
             rel="noopener noreferrer"
             className="lg:col-span-12 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-full rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
           >
-            Github
+            Topmate
           </a>
         </div>
         <Link
@@ -78,7 +78,7 @@ export default function Footer() {
           Team
         </Link>
         <a
-          href="https://www.instagram.com/itsjay.us/"
+          href="https://www.instagram.com/stb_krishmark12?utm_source=ig_web_button_share_sheet&igsh=Y2Y5MjB6dWppajNy"
           target="_blank"
           rel="noopener noreferrer"
           className="col-span-6 lg:col-span-3 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
@@ -86,7 +86,7 @@ export default function Footer() {
           Instagram
         </a>
         <a
-          href="https://www.linkedin.com/in/jasonzubiate/"
+          href="https://www.linkedin.com/in/krishmark12/"
           target="_blank"
           rel="noopener noreferrer"
           className="col-span-6 lg:col-span-2 flex items-end p-4 lg:p-6 bg-neutral-300/50 backdrop-blur-sm h-[120px] lg:h-[350px] rounded-lg lg:rounded-xl text-[clamp(16px,1.4vw,24px)] font-medium leading-tight cursor-pointer hover:backdrop-blur-md transition-all duration-500"
