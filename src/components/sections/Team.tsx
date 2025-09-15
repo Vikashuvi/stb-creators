@@ -45,7 +45,7 @@ const teamMembers = [
       "Process Optimization",
       "Quality Assurance"
     ],
-    image: "/images/team/archana-manager.webp",
+    image: "/images/team/Manager.png",
   },
   // -----------Writer 👇------------
   {
@@ -59,7 +59,7 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Skills"
     ],
-    image: "/images/team/naren.webp",
+    image: "/images/team/Naren.png  ",
   },
   {
     name: "Lavanya P",
@@ -72,7 +72,7 @@ const teamMembers = [
       "Brand Voice",
       "Editorial Skills"
     ],
-    image: "/images/team/lavanya.webp",
+    image: "/images/team/Lavanya.png",
   },
   {
     name: "Subhiksha S",
@@ -98,7 +98,7 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Excellence"
     ],
-    image: "/images/team/viswanes.jpg",
+    image: "/images/team/Viswanesan.png",
   },
   {
     name: "Subash A M G",
@@ -111,7 +111,7 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Skills"
     ],
-    image: "/images/team/subash.webp",
+    image: "/images/team/Subash.png",
   },
   {
     name: "Harini Muthusamy",
@@ -137,7 +137,7 @@ const teamMembers = [
       "Brand Voice",
       "Editorial Skills"
     ],
-    image: "/images/team/archana.webp",
+    image: "/images/team/Archana.png",
   },
   // -----------Video editor 👇------------
   {
@@ -151,7 +151,7 @@ const teamMembers = [
       "Team Leadership",
       "Client Relations"
     ],
-    image: "/images/team/fazil.webp",
+    image: "/images/team/Fazil.png",
   },
   {
     name: "Janishprabu",
@@ -164,7 +164,7 @@ const teamMembers = [
       "Sound Design",
       "Post Production"
     ],
-    image: "/images/team/janish.webp",
+    image: "/images/team/Janishprabu.png",
   },
   {
     name: "Karthikeyan Deivam",
@@ -177,7 +177,7 @@ const teamMembers = [
       "Content Creation",
       "Post Production"
     ],
-    image: "/images/team/karthikeyan.webp",
+    image: "/images/team/Karthikeyan.png",
   },
   {
     name: "Thirugnanamoorthy K",
@@ -242,7 +242,7 @@ const teamMembers = [
       "Content Creation",
       "Visual Effects"
     ],
-    image: "/images/team/indris.webp",
+    image: "/images/team/Indris.png",
   },
   // -----------intern👇------------
   {
@@ -284,6 +284,19 @@ const teamMembers = [
     ],
     image: "/images/team/shruthi.webp",
   },
+  {
+    name:"Elango",
+    position: "Web Developer",
+    role: "Web Developer",
+    skills: [
+      "Web Development",
+      "Front-end Development",
+      "Back-end Development",
+      "Database Management",
+      "Version Control"
+    ],
+    image: "/images/team/elango.png",
+  }
 ];
 
 
