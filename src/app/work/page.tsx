@@ -22,7 +22,7 @@ export default function Work() {
             }}
             className="text-[clamp(14px,1.2vw,24px)] font-medium"
           >
-            [2022-2025]
+            [2023-2025]
           </motion.p>
         </div>
         <div className="overflow-hidden">

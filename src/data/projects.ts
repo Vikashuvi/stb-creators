@@ -325,8 +325,12 @@ export const projects: Project[] = [
     year: 2023,
     url: "https://delivrd.live",
     backgroundImageUrl: "/images/work/SWJ/cover.png",
-    videoUrl: "/videos/",
+    videoUrl: "/videos/swj.mp4",
     media: [
+      {
+        type: "video",
+        url: "/videos/swj.mp4",
+      },
       {
         type: "image",
         url: "/images/work/SWJ/img2.png",
@@ -363,8 +367,12 @@ export const projects: Project[] = [
     year: 2023,
     url: "https://delivrd.live",
     backgroundImageUrl: "/images/work/saran/cover.png",
-    videoUrl: "/videos/",
+    videoUrl: "/videos/Saran.mp4",
     media: [
+      {
+        type: "video",
+        url: "/videos/Saran.mp4",
+      },
       {
         type: "image",
         url: "/images/work/saran/img2.png",

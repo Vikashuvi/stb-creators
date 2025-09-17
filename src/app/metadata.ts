@@ -15,23 +15,23 @@ export const metadata: Metadata = {
     "Software developer",
     "Design engineer",
   ],
-  authors: [{ name: "Jason Zubiate", url: "https://itsjay.us" }],
-  creator: "Jason Zubiate",
-  publisher: "Jason Zubiate",
+  authors: [{ name: "STB Creators", url: "https://www.stbcreators.space/" }],
+  creator: "STB Creators",
+  publisher: "STB Creators",
 
   // Open Graph
   openGraph: {
-    title: "Software Design Engineer",
+    title: "STB Creators",
     description:
-      "Jason Zubiate | Software design engineer based in Los Angeles.",
-    url: "https://itsjay.us",
-    siteName: "itsjay.us",
+      "STB Creators",
+    url: "https://www.stbcreators.space/",
+    siteName: "STB Creators",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Jason Zubiate - Design Engineer",
+        alt: "STB Creators",
       },
     ],
     locale: "en_US",
@@ -41,23 +41,23 @@ export const metadata: Metadata = {
   // Twitter
   twitter: {
     card: "summary_large_image",
-    title: "Jason Zubiate - Design Engineer",
+    title: "STB Creators",
     description:
-      "Jason Zubiate | Software design engineer based in Los Angeles.",
+      "STB Creators",
     creator: "@itsjay.us",
     images: [
       {
         url: "/src/app/opengraph-image.png",
         width: 1200,
         height: 675,
-        alt: "Jason Zubiate - Design Engineer",
+        alt: "STB Creators",
       },
     ],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://itsjay.us",
+    canonical: "https://www.stbcreators.space/",
   },
 
   // Robots
@@ -68,29 +68,6 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
     },
-  },
-
-  // Verification
-  verification: {
-    google: "google-site-verification-code-123456",
-    yandex: "yandex-verification-code-123456",
-    yahoo: "yahoo-verification-code-123456",
-    other: {
-      me: ["https://linkedin.com/in/jasonzubiate"],
-    },
-  },
-
-  // App links
-  appleWebApp: {
-    title: "Jason Zubiate Portfolio",
-    statusBarStyle: "default",
-  },
-
-  // Icons
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
   },
 
   // Other
