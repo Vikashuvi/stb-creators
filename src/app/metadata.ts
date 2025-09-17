@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Jason Zubiate | Design Engineer",
-  description: "Jason Zubiate | Software design engineer based in Los Angeles.",
+  title: "STB Creators",
+  description: "STB Creators",
 
   // Basic SEO
   keywords: [
-    "Sofware design engieer",
+    "STB Creators",
     "Senior software design engineer",
     "Software engineer",
     "Frontend engineer",

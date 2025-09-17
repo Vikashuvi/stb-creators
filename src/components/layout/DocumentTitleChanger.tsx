@@ -4,7 +4,7 @@ import useDocumentTitle from "@/hooks/useDocumentTitle";
 
 export default function DocumentTitleChanger() {
   useDocumentTitle({
-    defaultTitle: "Jason Zubiate | Creative Design Engineer",
+    defaultTitle: "STB Creators",
     onBlurTitle: "Hey!!!!",
   });
 

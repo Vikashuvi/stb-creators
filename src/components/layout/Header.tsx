@@ -41,9 +41,11 @@ function MailButton() {
       initial={{ opacity: 0, scale: 0.95, y: 16 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 1, delay: 3, ease: [0.16, 1, 0.3, 1] }}
-      href="mailto:jzubiate.dev@gmail.com"
+      href="https://topmate.io/stb_krishmark12/"
+      target="_blank"
+      rel="noopener noreferrer"
       className="fixed right-4 lg:right-8 top-4 lg:top-6 group cursor-pointer"
-      aria-label="Send me an email"
+      aria-label="Get in touch on Topmate"
       role="button"
     >
       <div className="relative">
@@ -53,9 +55,7 @@ function MailButton() {
         <div className="flex items-center relative px-5 lg:px-6 h-12 lg:h-14 rounded-full bg-neutral-900 text-neutral-100 font-semibold text-[clamp(16px,1.2vw,20px)] border border-neutral-800 z-10">
           <div className="overflow-hidden h-6 lg:h-7">
             <div className="flex flex-col transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:-translate-y-1/2">
-              <span className="text-[clamp(16px,1.2vw,20px)] text-neutral-100 font-semibold mb-1.5">
-                <a href="mailto:thestbcompanygmail.com">Get in touch</a>
-              </span>
+              <span className="text-[clamp(16px,1.2vw,20px)] text-neutral-100 font-semibold mb-1.5">Get in touch</span>
               <span className="text-[clamp(16px,1.2vw,20px)] text-neutral-100 font-semibold mb-1.5">
                 Get in touch
               </span>

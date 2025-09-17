@@ -59,7 +59,7 @@ const teamMembers = [
       "Content Strategy",
       "Editorial Skills"
     ],
-    image: "/images/team/Naren.png  ",
+    image: "/images/team/Naren.png",
   },
   {
     name: "Lavanya P",

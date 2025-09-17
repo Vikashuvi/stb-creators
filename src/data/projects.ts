@@ -54,13 +54,55 @@ export const projects: Project[] = [
         type: "image",
         url: "/images/work/enerjoy/img1.png",
       },
-      
+
     ],
   },
+
   {
-    title: "Tikitoro",
+    title: "SSI",
+    icon: "/images/work/socialstats/logo.jpg",
+    slug: "ssi",
+    category: "Product",
+    keywords: [
+      "Personal Branding & Profile Strategy",
+      "Career & Coaching Content Creation",
+      "Educational & Training Workshop Promotion",
+      "Short-form Video Content",
+      "Thought Leadership & Expert Positioning",
+      "Audience Engagement & Q&A Sessions",
+      "Testimonials & Success Story Showcases",
+      "Social Community Building",
+      "Content Calendar Planning & Consistency",
+      "Analytics & Growth Tracking",
+    ],
+    summary: [
+      "We helped Kasthuri Kishore transform her 25+ years of experience in the academic sector into an engaging digital presence, crafting content that positions her as a trusted mentor and coach.",
+      "Through a mix of inspirational stories, coaching tips, and interactive sessions, she now connects deeply with her audience, attracting learners who value expertise, authenticity, and actionable insight.",
+    ],
+    year: 2024,
+    url: null,
+    backgroundImageUrl: "/images/work/socialstats/cover.png",
+    videoUrl: "/videos/SSI.mp4",
+    media: [
+      {
+        type: "video",
+        url: "/videos/SSI.mp4",
+      },
+      {
+        type: "image",
+        url: "/images/work/socialstats/img2.png",
+      },
+      {
+        type: "image",
+        url: "/images/work/socialstats/img1.png",
+      },
+    ],
+  },
+
+  {
+    title: "Tripcoolers",
     icon: "/images/work/trackstack/icon.png",
-    slug: "tikitoro",
+    slug: "tripcoolers",
     category: "Product",
     keywords: [
       "Brand Awareness Campaigns & Storytelling",
@@ -75,29 +117,69 @@ export const projects: Project[] = [
       "Analytics & Performance Tracking",
     ],
     summary: [
-      "We supported Tikitoro India in building a joyful, trustworthy identity in the personal care space for youth (ages ~4-16).",
-      "Through vibrant, empathetic storytelling, influencer ties, and interactive content that resonates with both kids and parents, we helped amplify their message of safe self-care with heart.",
-      "By leaning into authentic moments, highlighting product safety, and engaging the community, we boosted visibility, trust, and strengthened their brand positioning in a competitive market.",
+      "We built Trip Coolers into a must-have travel brand by showcasing their coolers in real travel scenarios, leveraging influencer partnerships, user-generated content, and targeted ads. Our strategy increased brand visibility, drove engagement among travel enthusiasts, and consistently generated high-quality product enquiries.",
     ],
     year: 2025,
     url: null,
-    backgroundImageUrl: "/images/work/trackstack/banner.png",
-    videoUrl: "/videos/Tikitoro.mp4",
+    backgroundImageUrl: "/images/work/tripcoolers/cover.png",
+    videoUrl: "/videos/Tirp-cooler.mp4",
     media: [
       {
         type: "video",
-        url: "/videos/Tikitoro.mp4",
+        url: "/videos/Tirp-cooler.mp4",
       },
       {
         type: "image",
-        url: "/images/work/trackstack/img2.png",
+        url: "/images/work/tripcoolers/img2.png",
       },
       {
         type: "image",
-        url: "/images/work/trackstack/img1.png",
+        url: "/images/work/tripcoolers/img1.png",
       },
     ],
   },
+
+  // {
+  //   title: "Tikitoro",
+  //   icon: "/images/work/trackstack/icon.png",
+  //   slug: "tikitoro",
+  //   category: "Product",
+  //   keywords: [
+  //     "Brand Awareness Campaigns & Storytelling",
+  //     "Youth / Gen-Z / Parent-Child Friendly Content Creation",
+  //     "Product Showcases & Educational Content (safe personal care)",
+  //     "Micro-Influencer Collaborations & Testimonials",
+  //     "Engagement Posts, Challenges & Interactive Reels",
+  //     "Social Media Strategy & Content Calendar Planning",
+  //     "Visual Identity & Creative Direction",
+  //     "Launch Campaigns (new products, features)",
+  //     "Customer Reviews & Trust-Building Messaging",
+  //     "Analytics & Performance Tracking",
+  //   ],
+  //   summary: [
+  //     "We supported Tikitoro India in building a joyful, trustworthy identity in the personal care space for youth (ages ~4-16).",
+  //     "Through vibrant, empathetic storytelling, influencer ties, and interactive content that resonates with both kids and parents, we helped amplify their message of safe self-care with heart.",
+  //     "By leaning into authentic moments, highlighting product safety, and engaging the community, we boosted visibility, trust, and strengthened their brand positioning in a competitive market.",
+  //   ],
+  //   year: 2025,
+  //   url: null,
+  //   backgroundImageUrl: "/images/work/trackstack/banner.png",
+  //   videoUrl: "/videos/Tikitoro.mp4",
+  //   media: [
+  //     {
+  //       type: "video",
+  //       url: "/videos/Tikitoro.mp4",
+  //     },
+  //     {
+  //       type: "image",
+  //       url: "/images/work/trackstack/img2.png",
+  //     },
+  //     {
+  //       type: "image",
+  //       url: "/images/work/trackstack/img1.png",
+  //     },
+  //   ],
+  // },
   {
     title: "Visatosh",
     icon: "/images/work/kick-bass/logo.jpg",
@@ -139,46 +221,6 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-  title: "SSI",
-  icon: "/images/work/socialstats/logo.jpg",
-  slug: "ssi",
-  category: "Product",
-  keywords: [
-    "Personal Branding & Profile Strategy",
-    "Career & Coaching Content Creation",
-    "Educational & Training Workshop Promotion",
-    "Short-form Video Content",
-    "Thought Leadership & Expert Positioning",
-    "Audience Engagement & Q&A Sessions",
-    "Testimonials & Success Story Showcases",
-    "Social Community Building",
-    "Content Calendar Planning & Consistency",
-    "Analytics & Growth Tracking",
-  ],
-  summary: [
-    "We helped Kasthuri Kishore transform her 25+ years of experience in the academic sector into an engaging digital presence, crafting content that positions her as a trusted mentor and coach.",
-    "Through a mix of inspirational stories, coaching tips, and interactive sessions, she now connects deeply with her audience, attracting learners who value expertise, authenticity, and actionable insight.",
-  ],
-  year: 2024,
-  url: null,
-  backgroundImageUrl: "/images/work/socialstats/cover.png",
-  videoUrl: "/videos/SSI.mp4",
-  media: [
-    {
-      type: "video",
-      url: "/videos/SSI.mp4",
-    },
-    {
-      type: "image",
-      url: "/images/work/socialstats/img2.png",
-    },
-    {
-      type: "image",
-      url: "/images/work/socialstats/img1.png",
-    },
-  ],
-},
 
   {
     title: "SS Constructions",
@@ -334,7 +376,7 @@ export const projects: Project[] = [
     ],
   },
 
-    // {
+  // {
   //   title: "Rivera",
   //   icon: "/images/work/rivera/logo.jpg",
   //   slug: "rivera",
@@ -370,10 +412,10 @@ export const projects: Project[] = [
   //       url: "/images/work/rivera/img2.png",
   //     },
   //   ],
-    
 
-    
-    
+
+
+
 
   // },
 

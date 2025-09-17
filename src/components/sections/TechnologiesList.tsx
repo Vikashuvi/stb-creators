@@ -115,28 +115,28 @@ export default function TechnologiesLit() {
     {/* Grid for mobile */}
     <div className="grid grid-cols-2 lg:hidden">
       <a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Premiere Pro website">
-        <Image src="/images/svg/premiere-pro.svg" alt="Premiere Pro" width={70} height={70} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/premiere-pro.png" alt="Premiere Pro" width={70} height={70} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://www.adobe.com/products/aftereffects.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit After Effects website">
-        <Image src="/images/svg/after-effects.svg" alt="After Effects" width={70} height={70} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/after-effects.png" alt="After Effects" width={70} height={70} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit DaVinci Resolve website">
-        <Image src="/images/svg/davinci-resolve.svg" alt="DaVinci Resolve" width={70} height={70} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/davinci-resolve.png" alt="DaVinci Resolve" width={70} height={70} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Illustrator website">
-        <Image src="/images/svg/illustrator.svg" alt="Illustrator" width={70} height={70} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/illustrator.png" alt="Illustrator" width={70} height={70} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Perplexity website">
-        <Image src="/images/svg/perplexity.svg" alt="Perplexity" width={60} height={60} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/perplexity.png" alt="Perplexity" width={60} height={60} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit ChatGPT website">
-        <Image src="/images/svg/chatgpt.svg" alt="ChatGPT" width={60} height={60} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/chatgpt.png" alt="ChatGPT" width={60} height={60} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://framer.com/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-r border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Framer website">
-        <Image src="/images/svg/framer.svg" alt="Framer" width={60} height={60} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/framer.png" alt="Framer" width={60} height={60} className="z-10 transition-all duration-300" />
       </a>
       <a href="https://www.elevenlabs.io/" target="_blank" rel="noopener noreferrer" className="grid-item flex items-center justify-center border-b border-neutral-300 group cursor-pointer h-[clamp(200px,20vw,400px)]" aria-label="Visit Eleven Labs website">
-        <Image src="/images/svg/elevenlabs.svg" alt="Eleven Labs" width={60} height={60} className="z-10 transition-all duration-300" />
+        <Image src="/images/svg/elevenlabs.png" alt="Eleven Labs" width={60} height={60} className="z-10 transition-all duration-300" />
       </a>
     </div>
     <div ref={highlightRef} className="highlight hidden sm:block absolute top-0 left-0 bg-neutral-900 pointer-events-none transition-all duration-300"></div>
