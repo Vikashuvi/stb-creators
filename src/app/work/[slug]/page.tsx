@@ -201,7 +201,7 @@ export default function Project({ params }: { params: Promise<PageParams> }) {
                         src={media.url}
                         alt={project.title}
                         fill
-                        className="object-contain"
+                        className="object-cover"
                       />
                     ) : (
                       <video
@@ -240,7 +240,7 @@ export default function Project({ params }: { params: Promise<PageParams> }) {
                       src={media.url}
                       alt={project.title}
                       fill
-                      className="object-contain"
+                      className="object-cover"
                     />
                   ) : (
                     <video

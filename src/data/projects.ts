@@ -296,8 +296,9 @@ export const projects: Project[] = [
       },
       {
         type: "image",
-        url: "/images/work/delivrd/img1.png",
+        url: "/images/work/delivrd/img2.png",
       },
+      
     ],
   },
 
