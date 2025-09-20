@@ -48,7 +48,7 @@ export default function Project({ params }: { params: Promise<PageParams> }) {
               delay: isInitialLoad ? 3 : 1,
               ease: [0.16, 1, 0.3, 1],
             }}
-            className="w-full text-neutral-100 text-center text-5xl md:text-[clamp(64px,8vw,180px)] font-bold uppercase leading-[0.85]"
+            className="w-full text-neutral-100 text-center text-3xl md:text-[clamp(64px,8vw,180px)] font-bold uppercase leading-[0.85]"
           >
             {project.title}
           </motion.h1>

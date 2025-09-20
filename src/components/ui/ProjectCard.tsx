@@ -99,7 +99,7 @@ export default function ProjectCard({
                 height={32}
                 className="w-6 h-6 lg:w-8 lg:h-8 rounded-full"
               ></Image>
-              <p className="text-[clamp(14px,1.2vw,18px)] uppercase font-semibold text-neutral-100 tracking-wide">
+              <p className="text-xs md:text-[clamp(14px,1.2vw,18px)] uppercase font-semibold text-neutral-100 tracking-wide">
                 {project.title}
               </p>
             </div>

@@ -20,7 +20,7 @@ export default function ProjectList() {
           <button
             type="button"
             onClick={() => setCurrentProject(projects[index])}
-            className={`px-3 pt-2 pb-2.5 rounded-full text-sm font-medium tracking-tight transition-colors duration-300 group ${
+            className={`px-3 pt-2 pb-2.5 rounded-full text-xs md:text-sm font-medium tracking-tight transition-colors duration-300 group ${
               currentProject.title === project.title
                 ? "bg-neutral-900 text-neutral-50"
                 : "bg-neutral-900/10 text-neutral-900"
